@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Letter</title>
+</head>
+<body>
+<img src="C:\Users\LVST\Downloads\saveetha.png" alt="Saveetha" style="float:left;width:128px;height:128px">
+<h1 style="text-align:center;color:green;">SAVEETHA UNIVERSITY</h1>
+<h2 style="text-align:right;">Chennai</h2>
+<h2 style="text-align:right;">02/11/2023</h2>
+<h1 style="text-align:left;">From:</h3>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ksk Ganapathy,</h3>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;192110118,</h3>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CSE,</h3>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIMATS,</h3>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai.</h3>
+<h1 style="text-align:left;">To:</h1>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Principal,</h3>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SIMATS,</h3>
+<h3 style="text-align:left;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Chennai.</h3>
+<br>
+<h3 style="text-align:center;">Sub:&nbsp;Request permission to go home</h3>
+<h2 style="text-align:left;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Respected Sir,</h2>
+<p> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;My name is Ksk Ganapathy.I am studying 3rd year from CSE Department.
+I want to go home on 4/11/2023(i.e Saturday) to 13/11/2023(i.e Monday) <br>for diwali vacation.I will return back by Given date.So,I request you to grant me leave to go home.  </p>
+<h4 style="text-align:center;">Thanking You,Sir!</h2>
+<h4 style="text-align:right;">Yours faithfully,</h2>
+<h4 style="text-align:right;">Ksk Ganapathy.</h4>
+</body>
+</html>
