@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="text-align: center;">Update</h1>
+        <title>Updation</title>
+    </head>
+    <body>
+        <form action="/project/up.php" method="POST" style="text-align: center;"> 
+                User Name:<input type="text" id="user" name="user"/><br><br>
+                Password:<input type="text" id="pass" name="pass"/><br><br> <hr>
+                         <input type="submit" id="submit" name="submit"/>                         
+        </form>
+        <?php
+            if($_SERVER['REQUEST_METHOD']=="POST"){
+                $servername = "localhost";
+                $username = "root";
+                $password = "";
+                $database = "goutham";
+
+
+                $con = mysqli_connect($servername,$username,$password,$database);
+                $sql = "UPDATE `login` SET `user`='gana',`pass`='123' WHERE user='hello'";
+                $result = mysqli_query($con,$sql);
+
+                if($result)
+                    echo "Updated!";
+                else
+                    echo "Couldn't Update...";
+            }
+        ?>
+    </body>
+</html>
