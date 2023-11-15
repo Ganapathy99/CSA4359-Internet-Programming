@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1 style="text-align: center;">Delete Character</h1>
+        <title>Deletion</title>
+    </head>
+    <body>
+        <form action="/project/del.php" method="POST" style="text-align: center;">
+            Character Name: <input type="text" id="pass" name="pass"><br><br>
+                        <input type="submit" id="submit" name="submit">
+                            
+        </form>
+        <?php
+            if($_SERVER['REQUEST_METHOD']=="POST"){
+                $servername = "localhost";
+                $username = "root";
+                $password = "";
+                $database = "goutham";
+
+
+                $con = mysqli_connect($servername,$username,$password,$database);
+                $sql = "DELETE FROM login WHERE pass='123'";
+                $result = mysqli_query($con,$sql);
+
+                if($result)
+                    echo "Deleted!";
+                else
+                    echo "Couldn't Delete...";
+            }
+        ?>
+    </body>
+</html>
