@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bio data</title>
+</head>
+<style>
+table,th,td{
+border:1px solid black;
+}
+</style>
+<body>
+<h1 style="text-align:center;">Bio Data</h1>
+<h4 style="text-align:left;">Name:&nbspKsk Ganapathy</h4>
+<h4 style="text-align:left;">Address:&nbspMachilipatnam</h4>
+<h4 style="text-align:left;">Phone:&nbsp7828559999</h4>
+<h4 style="text-align:left;">Email:&nbspkskganapathy9@gmail.com</h4>
+<br>
+<h1 style="text-align:center;">Education Qualification</h1>
+<br>
+<table style="width:100%">
+<tr>
+<th>SSC</th>
+<th>Intermediate</th>
+<th>BTech</th>
+</tr>
+<tr>
+<td>9.5</td>
+<td>961</td>
+<td>8.2</td>
+</tr>
+</table>
+<h2>Skills:</h2>
+<ul>
+<li>C</li>
+<li>Java</li>
+<li>SQL</li>
+</body>
+</html>
